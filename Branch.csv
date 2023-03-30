@@ -1,0 +1,707 @@
+﻿TBB_ID;Branch_Code;Branch_Name;Branch_Type;Service_Model;isClosedLoop;isSatellite;Parent_Branch;Queue_Wait_Time_mins;Queue_Score;Digital_Score;Satisfaction_Score;Performance_Score;Audit_Score
+941;1791;Ceyhan;Retail;Mass;;;; 22.2 ; 1.00 ;2.8;4.7;3; 3.70 
+942;4413;Kuzey Adana;Retail;Mass;;;; 22.2 ; 1.00 ;1.8;5;4.3; 4.50 
+943;2706;Karataş;Retail;Mass;;;; 24.2 ; 1.00 ;2.1;3.8;4.1; 4.20 
+944;4779;Kozan;Retail;Mass;;;; 22.6 ; 1.00 ;1.7;4.6;3.3; 4.30 
+945;3398;Adana;Retail;RM;;;; 11.9 ; 3.03 ;3.2;3.6;1.6; 3.30 
+946;2680;Adana Çarşı;SME;SME RM;;;; 13.2 ; 2.70 ;3.7;3.8;4.7; 4.60 
+947;2817;Adana Ticari Merkez;Commercial;Commercial;;;; 2.0 ; 4.75 ;3.8;3.9;3.3; 4.20 
+948;3108;Baraj Yolu;Retail;Mass;;;; 15.8 ; 2.05 ;1.2;4.6;3; 4.20 
+949;1968;Barkal;Retail;Mass;;;; 23.0 ; 1.00 ;4;4.4;3.7; 3.50 
+950;3283;Seyhan;Retail;Mass;;;; 21.8 ; 1.00 ;2;3.9;4.2; 4.10 
+951;3417;Sarıçam;Retail;Mass;;;; 20.6 ; 1.00 ;3.7;3.6;4.5; 4.40 
+952;4100;Yüreğir;Retail;Mass;;;; 21.8 ; 1.00 ;3.1;4.9;3.9; 4.10 
+953;4144;Besni;Retail;Mass;;;; 17.8 ; 1.55 ;3.9;5;4.1; 3.30 
+954;14;Kahta;Retail;Mass;;;; 14.6 ; 2.35 ;2.1;3.8;2.5; 3.90 
+955;2658;Adıyaman;Retail;Mass;;;; 23.0 ; 1.00 ;1.2;2.7;3.5; 3.80 
+956;3266;Çay;Retail;Mass;;;; 7.8 ; 4.03 ;1.6;4.5;4; 4.50 
+957;13;Dinar;Retail;Mass;;;; 19.8 ; 1.05 ;2.5;4.8;2.9; 3.40 
+958;3102;Emirdağ;Retail;Mass;;;; 19.4 ; 1.15 ;2.8;4.4;4.2; 4.00 
+959;910;İhsaniye;Retail;Mass;;;; 19.0 ; 1.25 ;2.8;4.5;4.2; 4.50 
+960;220;Afyon;Retail;RM;;;; 6.8 ; 4.15 ;3.9;1.3;3.3; 1.90 
+961;2438;Afyon Kocatepe;Retail;Mass;;;; 25.8 ; 1.00 ;3.6;2.7;4.5; 4.10 
+962;4578;Sandıklı;Retail;Mass;;;; 19.0 ; 1.25 ;3.8;4.4;2.6; 4.00 
+963;184;Sinanpaşa;Retail;Mass;;;; 19.8 ; 1.05 ;2.8;4.2;3.3; 3.80 
+964;430;Şuhut;Retail;Mass;;;; 21.4 ; 1.00 ;3.2;4.6;4.2; 4.50 
+965;327;Doğubayazıt;Retail;Mass;;;; 19.4 ; 1.15 ;3.5;4.9;3.3; 3.90 
+966;2873;Eleşkirt;Retail;Mass;;;; 21.0 ; 1.00 ;4;3.6;2.8; 3.70 
+967;832;Ağrı;Retail;Mass;;;; 12.2 ; 2.95 ;3.8;1.8;4.2; 3.10 
+968;4546;Patnos;Retail;Mass;;;; 21.0 ; 1.00 ;3.6;1.8;2.2; 3.30 
+969;468;Eskil;Retail;Mass;;;; 22.6 ; 1.00 ;1.3;3.9;3; 3.40 
+970;17;Aksaray Atatürk Bulvarı;Retail;Mass;;;; 7.4 ; 4.08 ;3.8;2.1;2.9; 3.00 
+971;1979;İl Aksaray;Retail;Mass;;;; 19.4 ; 1.15 ;3.1;4.8;4.3; 4.60 
+972;1754;Aksaray Ortaköy;Retail;Mass;;;; 19.0 ; 1.25 ;3.7;3.9;3.2; 4.10 
+973;1221;Amasya;Retail;RM;;;; 16.0 ; 2.00 ;3.7;3.9;3.6; 4.40 
+974;2419;Merzifon;Retail;RM;;;; 11.6 ; 3.10 ;1.5;1.2;2.5; 3.10 
+975;4265;Suluova;Retail;Mass;;;; 24.2 ; 1.00 ;2.6;2.3;2.3; 3.30 
+976;1554;Taşova;Retail;Mass;;;; 17.0 ; 1.75 ;2;3.9;3.7; 4.10 
+977;1352;Akyurt;Retail;Mass;;;; 22.6 ; 1.00 ;1.6;4.8;2.8; 4.20 
+978;285;Kazım Karabekir;Retail;Mass;;;; 20.2 ; 1.00 ;1.7;3.6;3.1; 3.30 
+979;4708;Siteler Ankara;Retail;RM;;;; 6.5 ; 4.19 ;4.5;3.4;2.9; 3.70 
+980;2921;Ulus;Retail;RM;;;; 15.6 ; 2.10 ;2.1;3.8;4.5; 4.60 
+981;4272;Bala;Retail;Mass;;;; 11.4 ; 3.15 ;1.6;3.7;4.3; 4.10 
+982;4215;Beypazarı;Retail;Mass;;;; 17.0 ; 1.75 ;2.8;5;4.5; 4.70 
+983;3400;Ankara;Retail;RM;;;; 12.6 ; 2.85 ;2.7;3.1;4.2; 4.10 
+984;1804;Ankara Maltepe;Retail;Mass;;;; 25.0 ; 1.00 ;1.6;4.9;4; 3.90 
+985;1468;Ankara Ticari Merkez;Commercial;Commercial;;;; 1.7 ; 4.79 ;3.7;2.4;4.1; 3.70 
+986;524;Ankara Tren Garı;Retail;Mass;;1;285; 4.7 ; 4.41 ;3;4.2;3.7; 3.10 
+987;1825;Bahçelievler Ankara;Retail;RM;;;; 15.6 ; 2.10 ;4.5;3.5;4.4; 4.30 
+988;4700;Balgat;Retail;Mass;;;; 22.2 ; 1.00 ;2.9;5;4.4; 3.90 
+989;2973;Başkent Kurumsal;Commercial;Commercial;1;;; 1.8 ; 4.78 ;3.7;1.5;3.6; 3.70 
+990;674;Başkent Ticari Merkez Ve Kamu Finansmanı;Commercial;Commercial;1;;; 1.8 ; 4.78 ;2.4;4;3.4; 3.60 
+991;1369;Cebeci;Retail;Mass;;;; 16.2 ; 1.95 ;2.7;5;4.3; 4.30 
+992;2233;Dikmen;Retail;Mass;;;; 21.4 ; 1.00 ;3.2;4.8;4.2; 4.50 
+993;798;Köroğlu Ankara;Retail;Mass;;;; 21.8 ; 1.00 ;2.5;4.9;2.4; 3.60 
+994;4074;Mithatpaşa;Retail;Private RM;;;; 9.6 ; 3.60 ;4.6;3.6;4.5; 4.40 
+995;895;Tunalı Hilmi;Private;Private RM;;;; 5.5 ; 4.31 ;4.4;4.3;2.8; 3.70 
+996;4145;Ümitköy;Retail;Mass;;;; 20.6 ; 1.00 ;2.4;2.9;3.6; 3.30 
+997;4652;Yenişehir;Retail;Mass;;;; 11.0 ; 3.25 ;1.4;4.6;4.2; 4.20 
+998;1126;Yıldız Ankara;Retail;Mass;;;; 20.6 ; 1.00 ;4.1;3.1;4.5; 3.70 
+999;760;Çubuk;Retail;Mass;;;; 21.4 ; 1.00 ;1.9;4.6;4.3; 4.70 
+1000;1867;Başkent Üniversitesi;Retail;Mass;1;1;4630; 5.0 ; 4.38 ;4.1;4.8;3.7; 4.30 
+1001;2910;Elvankent;Retail;Mass;;;; 21.4 ; 1.00 ;2.8;4.6;4.2; 4.70 
+1002;3643;Eryaman;Retail;RM;;;; 20.4 ; 1.00 ;4.2;2.4;3.9; 3.90 
+1003;4630;Etimesgut;Private;Private RM;;;; 3.1 ; 4.61 ;2.7;2;2; 3.30 
+1004;4811;Şaşmaz;Retail;Mass;;;; 10.2 ; 3.45 ;1.7;4.9;4.4; 4.80 
+1005;1932;Gölbaşı;Retail;RM;;;; 7.8 ; 4.03 ;4.9;4.2;3.4; 4.20 
+1006;2077;Haymana;Retail;Mass;;;; 22.2 ; 1.00 ;3.2;4.8;3; 4.10 
+1007;163;Kahramankazan;Retail;Mass;;;; 17.8 ; 1.55 ;2;3.9;3.1; 4.20 
+1008;913;Etlik;Retail;Mass;;;; 17.4 ; 1.65 ;3.2;2.1;2.4; 2.30 
+1009;778;Keçiören;Retail;Mass;;;; 20.2 ; 1.00 ;2.3;4.9;3.8; 3.70 
+1010;695;Sanatoryum;Retail;RM;;;; 16.7 ; 1.83 ;3.1;4.2;3.4; 3.20 
+1011;2970;Mamak Nato Yolu;Retail;Mass;;;; 20.6 ; 1.00 ;3.8;3.5;3.8; 3.90 
+1012;1761;Polatlı;Retail;Mass;;;; 20.6 ; 1.00 ;1.5;3;3.3; 3.30 
+1013;3917;Pursaklar;Retail;Mass;;;; 17.4 ; 1.65 ;3.7;1.4;3.2; 3.70 
+1014;4221;Sincan;Retail;Mass;;;; 26.2 ; 1.00 ;4.1;5;2.2; 3.90 
+1015;1137;Sincan Vatan Caddesi;Retail;Mass;;;; 15.0 ; 2.25 ;2.9;4.5;3.1; 2.90 
+1016;2319;Yenikent;Retail;Mass;;;; 15.0 ; 2.25 ;3;4.6;4.4; 4.40 
+1017;1134;Şereflikoçhisar;Retail;Mass;;;; 25.8 ; 1.00 ;3.2;4.8;4.5; 4.30 
+1018;1013;Batıkent;Retail;RM;;;; 5.8 ; 4.28 ;4.3;4;3.2; 3.70 
+1019;4846;Çayyolu;Retail;Mass;;;; 20.6 ; 1.00 ;3.9;4.4;2.3; 3.30 
+1020;2433;Gimat;SME;SME RM;;;; 14.7 ; 2.33 ;2.3;1.5;4.8; 3.70 
+1021;4101;İvedik Organize Sanayi;SME;SME RM;;;; 12.9 ; 2.78 ;3.4;3.1;4.9; 3.50 
+1022;3110;Ostim;SME;SME RM;;;; 18.0 ; 1.50 ;3.4;1.8;4.8; 3.90 
+1023;2105;Ostim Ticari Merkez;Commercial;Commercial;;;; 5.3 ; 4.34 ;3.1;1.9;3.5; 2.50 
+1024;2187;Şentepe;Retail;Mass;;;; 23.0 ; 1.00 ;2.8;3.8;3.2; 4.10 
+1025;3241;Yenimahalle;Retail;RM;;;; 4.8 ; 4.40 ;3.6;2.5;3.7; 2.70 
+1026;4035;Aksu;Retail;Mass;;;; 16.2 ; 1.95 ;1.9;4.8;3.1; 4.30 
+1027;878;Alanya;Retail;RM;;;; 10.2 ; 3.45 ;3.8;3;4; 4.20 
+1028;877;Alanya Çarşı;SME;SME RM;;;; 16.8 ; 1.80 ;4.7;2.7;4.9; 4.50 
+1029;1115;Alanya Sanayi;SME;SME RM;;;; 5.1 ; 4.36 ;4.5;2;4.9; 3.80 
+1030;962;Konaklı;Retail;Mass;;;; 21.4 ; 1.00 ;3.4;2.7;3.8; 4.00 
+1031;2463;Demre;Retail;Mass;;;; 23.0 ; 1.00 ;3.8;2.5;4.5; 4.00 
+1032;404;Döşemealtı;Retail;RM;;;; 11.2 ; 3.20 ;4.3;2.7;3.8; 4.10 
+1033;3242;Elmalı;Retail;Mass;;;; 15.0 ; 2.25 ;1.7;2.6;3.4; 3.80 
+1034;4090;Finike;Retail;RM;;;; 14.3 ; 2.43 ;3.3;2.6;2.3; 3.20 
+1035;3406;Gazipaşa;Retail;Mass;;;; 24.2 ; 1.00 ;4;5;4; 4.50 
+1036;204;Kalkan;Retail;Private RM;;;; 10.2 ; 3.45 ;4.1;3.4;2.4; 3.60 
+1037;3267;Kınıkova;Retail;Mass;;;; 20.6 ; 1.00 ;3.4;4.7;3.3; 3.70 
+1038;3867;Kemer;Retail;Private RM;;;; 16.0 ; 2.00 ;3.3;3;3.3; 3.10 
+1039;2899;Antalya - Yeni Hal;SME;SME RM;;;; 9.3 ; 3.68 ;1.4;3.3;4.8; 3.30 
+1040;3120;Kepez;Retail;Mass;;;; 23.0 ; 1.00 ;1.7;4.5;2.8; 3.90 
+1041;324;Konyaaltı;SME;SME RM;;;; 15.6 ; 2.10 ;4.1;3.7;4.7; 4.20 
+1042;2599;Uncalı;Retail;Mass;;;; 15.8 ; 2.05 ;3.2;2.4;3.7; 3.70 
+1043;3516;Korkuteli;Retail;Mass;;;; 20.6 ; 1.00 ;1.6;4.8;3.6; 3.70 
+1044;613;Kumluca;Retail;Mass;;;; 11.4 ; 3.15 ;1.2;4.3;2.5; 2.30 
+1045;3565;Manavgat;Retail;RM;;;; 19.4 ; 1.15 ;3.8;4.2;4; 3.70 
+1046;1100;Manavgat Sanayi;SME;SME RM;;;; 14.7 ; 2.33 ;1.6;3.6;5; 4.20 
+1047;4446;Side Ticari Merkez;Commercial;Commercial;;;; 5.8 ; 4.28 ;4.1;1.2;4.1; 3.20 
+1048;4159;Akdeniz Ticari Merkez;Commercial;Commercial;;;; 3.4 ; 4.58 ;3;3.3;3.1; 3.30 
+1049;4875;Antalya;Retail;RM;;;; 18.0 ; 1.50 ;3.2;3;3.8; 3.70 
+1050;3827;Antalya 100.Yıl;Retail;Private RM;;;; 13.4 ; 2.65 ;2.7;4.3;3.5; 3.70 
+1051;2702;Antalya Çarşı;SME;SME RM;;;; 15.0 ; 2.25 ;1.3;4.5;4.8; 4.50 
+1052;4450;Çallı;Retail;Mass;;;; 20.6 ; 1.00 ;3.6;1.9;3.9; 3.00 
+1053;1236;Fener;Retail;Mass;;;; 22.2 ; 1.00 ;3.2;1.9;4.2; 3.80 
+1054;3788;Güzeloba;Retail;Mass;;;; 11.0 ; 3.25 ;2.9;1.7;3.3; 3.80 
+1055;298;Lara;Retail;Private RM;;;; 16.0 ; 2.00 ;4.7;2.1;3.7; 3.60 
+1056;3896;Serik;Retail;RM;;;; 8.8 ; 3.80 ;1.5;4.5;4.3; 4.30 
+1057;2880;Çıldır;Retail;Mass;;;; 13.8 ; 2.55 ;1.7;3.7;4; 3.90 
+1058;787;Göle;Retail;Mass;;;; 18.2 ; 1.45 ;2.7;1.5;1; 2.60 
+1059;410;Hanak;Retail;Mass;;;; 24.6 ; 1.00 ;1.8;4.6;4.2; 3.30 
+1060;1608;Ardahan;Retail;Mass;;;; 19.4 ; 1.15 ;4;2.9;2.9; 3.60 
+1061;734;Artvin Kemalpaşa;Retail;Mass;;;; 21.4 ; 1.00 ;3.5;4.6;4; 4.10 
+1062;2577;Hopa;Retail;Mass;;;; 16.6 ; 1.85 ;3;5;4.5; 3.90 
+1063;812;Artvin;Retail;RM;;;; 12.2 ; 2.95 ;4.9;2.2;2.7; 3.30 
+1064;3245;Bozdoğan;Retail;Mass;;;; 10.6 ; 3.35 ;3.7;3.9;4.2; 4.20 
+1065;2070;Çine;Retail;Mass;;;; 14.2 ; 2.45 ;3.8;4.4;4.4; 4.50 
+1066;262;Didim;Retail;Private RM;;;; 15.4 ; 2.15 ;4.7;3.4;3; 2.90 
+1067;3454;Aydın;Retail;RM;;;; 14.3 ; 2.43 ;3.5;2.5;3.3; 3.00 
+1068;2818;Aydın Bulvar;Retail;RM;;;; 8.5 ; 3.88 ;1.4;3.9;4.2; 4.20 
+1069;2518;Germencik;Retail;Mass;;;; 18.6 ; 1.35 ;4;5;4.3; 3.40 
+1070;4816;İncirliova;Retail;RM;;;; 7.8 ; 4.03 ;4.5;3.3;3.7; 3.90 
+1071;4006;Köşk;Retail;Mass;;;; 10.2 ; 3.45 ;2.7;4.7;4.1; 4.50 
+1072;2950;Kuşadası;Retail;Private RM;;;; 16.0 ; 2.00 ;4.9;3.4;3.9; 4.00 
+1073;3888;Kuşadası Liman;Retail;Private RM;;;; 16.6 ; 1.85 ;4.1;1.8;4; 3.70 
+1074;2357;Kuyucak;Retail;Mass;;;; 18.6 ; 1.35 ;2.8;4.3;2.4; 3.80 
+1075;3489;Nazilli;Retail;RM;;;; 19.0 ; 1.25 ;1.7;4.3;4.2; 4.50 
+1076;3314;Söke;Retail;RM;;;; 8.5 ; 3.88 ;4.6;3.1;4.5; 4.00 
+1077;2688;Yenipazar;Retail;RM;;;; 4.4 ; 4.45 ;1.9;4;2.5; 3.70 
+1078;980;Ayvalık;Private;Private RM;;;; 3.3 ; 4.59 ;2.1;3.2;3.3; 3.80 
+1079;4513;Bandırma;Retail;Mass;;;; 8.2 ; 3.95 ;1.1;4.8;2.4; 3.20 
+1080;930;Bigadiç;Retail;Mass;;;; 20.2 ; 1.00 ;2.8;5;3.6; 3.90 
+1081;761;Burhaniye;Retail;Private RM;;;; 13.4 ; 2.65 ;4.7;3.1;4.3; 4.10 
+1082;4160;Altınoluk;Retail;Private RM;;;; 6.1 ; 4.24 ;3.1;2.4;2.2; 3.20 
+1083;2636;Edremit;Retail;Private RM;;;; 6.1 ; 4.24 ;2.7;1.9;2.6; 3.40 
+1084;1847;Gönen;Retail;RM;;;; 12.2 ; 2.95 ;3.6;3;2.8; 3.50 
+1085;3367;Havran;Retail;Mass;;;; 22.2 ; 1.00 ;2.9;5;3.2; 4.10 
+1086;3486;İvrindi;Retail;Mass;;;; 20.6 ; 1.00 ;2.2;4.7;4.5; 4.40 
+1087;2453;Balıkesir;Retail;RM;;;; 16.3 ; 1.93 ;1.7;1.3;2.5; 2.60 
+1088;1188;Balıkesir Akıncılar;Retail;RM;;;; 15.6 ; 2.10 ;4.1;4.3;3.9; 4.50 
+1089;3872;Kepsut;Retail;Mass;;;; 13.0 ; 2.75 ;2.7;4.2;2.2; 3.60 
+1090;3592;Manyas;Retail;Mass;;;; 16.2 ; 1.95 ;1.2;4.8;2.5; 4.00 
+1091;100;Sındırgı;Retail;Mass;;;; 14.6 ; 2.35 ;1;4.9;3; 4.10 
+1092;2368;Susurluk;Retail;Mass;;;; 19.8 ; 1.05 ;3.2;4.6;3.5; 4.20 
+1093;2347;Bartın;Retail;Mass;;;; 21.8 ; 1.00 ;1.2;5;4.4; 4.30 
+1094;4099;Kozluk;Retail;Mass;;;; 11.0 ; 3.25 ;1.8;2.5;1.5; 3.20 
+1095;1602;Batman;Retail;Mass;;;; 15.0 ; 2.25 ;1.2;3.8;2.9; 4.00 
+1096;1498;Batman Diyarbakır Caddesi;Retail;Mass;;;; 24.2 ; 1.00 ;3.3;4.8;3.9; 3.80 
+1097;4537;Bayburt;Retail;Mass;;;; 24.6 ; 1.00 ;2.8;4.8;4.5; 4.70 
+1098;1630;Bozüyük;Retail;RM;;;; 9.5 ; 3.63 ;1.5;4.2;3.8; 4.20 
+1099;319;Bilecik;Retail;RM;;;; 8.5 ; 3.88 ;4.9;2.1;4.4; 2.70 
+1100;1931;Osmaneli;Retail;Mass;;;; 7.4 ; 4.08 ;1.8;4.3;2.1; 2.60 
+1101;1607;Bingöl;Retail;RM;;;; 11.2 ; 3.20 ;2.5;2.9;2.1; 3.50 
+1102;1053;Ahlat;Retail;Mass;;;; 8.6 ; 3.85 ;3.7;4.8;4.1; 3.40 
+1103;1222;Tatvan;Retail;Mass;;;; 21.0 ; 1.00 ;3.9;4.8;2.3; 4.00 
+1104;3268;Bolu;Retail;RM;;;; 18.0 ; 1.50 ;2.4;1.3;3.3; 3.70 
+1105;2171;Bolu Gölyüzü;Retail;Mass;;;; 15.0 ; 2.25 ;1.9;1.4;4.5; 3.90 
+1106;2994;Mudurnu;Retail;RM;;;; 12.6 ; 2.85 ;4.6;4.4;4.4; 4.70 
+1107;3739;Bucak;Retail;Mass;;;; 25.8 ; 1.00 ;2.8;2.6;2.4; 2.30 
+1108;3196;Gölhisar;Retail;Mass;;;; 19.4 ; 1.15 ;2.8;1.3;4.5; 3.20 
+1109;2009;Burdur;Retail;RM;;;; 10.9 ; 3.28 ;1.3;1.9;3.9; 2.80 
+1110;52;Yeşilova;Retail;Mass;;;; 23.8 ; 1.00 ;2.8;2.9;3; 3.40 
+1111;2814;Gemlik;Retail;RM;;;; 3.7 ; 4.54 ;4.7;2.5;4.5; 4.10 
+1112;912;Gürsu;Retail;Mass;;;; 22.6 ; 1.00 ;2.8;3.3;2.1; 3.40 
+1113;728;İnegöl;SME;SME RM;;;; 5.1 ; 4.36 ;3.6;2.1;3.8; 4.00 
+1114;625;İnegöl Pazar Yolu;Retail;RM;;;; 19.4 ; 1.15 ;4.1;2;4.3; 3.70 
+1115;2507;İznik;Retail;RM;;;; 14.3 ; 2.43 ;2;4;3.1; 3.00 
+1116;597;Karacabey;Retail;Mass;;;; 15.4 ; 2.15 ;2.2;4.3;4.1; 3.70 
+1117;4916;Kestel;Retail;RM;;;; 11.6 ; 3.10 ;4.6;3.2;3.5; 4.20 
+1118;2236;Mudanya;Retail;RM;;;; 8.2 ; 3.95 ;3.3;3.3;3.1; 3.60 
+1119;4318;Mustafakemalpaşa;Retail;RM;;;; 16.7 ; 1.83 ;1.9;2.6;3.8; 4.10 
+1120;2790;Beşevler;Retail;Mass;;;; 22.6 ; 1.00 ;3.2;4.8;2.4; 2.80 
+1121;3495;Bursa Organize Sanayi;SME;SME RM;;;; 4.5 ; 4.44 ;4.2;1.5;4.8; 4.20 
+1122;1929;Fsm Bulvarı;Retail;Mass;;;; 14.2 ; 2.45 ;3.6;2.1;4.2; 3.80 
+1123;49;Nilüfer;Retail;RM;;;; 14.3 ; 2.43 ;2.7;3.1;4.2; 3.00 
+1124;222;Orhangazi;SME;SME RM;;;; 14.7 ; 2.33 ;2.8;3.3;4.3; 3.00 
+1125;2573;Bursa;Retail;RM;;;; 11.9 ; 3.03 ;2;2.8;2.6; 2.60 
+1126;1951;Bursa Heykel;Retail;Private RM;;;; 14.1 ; 2.48 ;4.3;4.4;2.6; 3.80 
+1127;4734;Marmara Ticari Merkez;Commercial;Commercial;;;; 1.8 ; 4.78 ;4.5;3.1;1.6; 2.40 
+1128;3370;Setbaşı;Retail;Mass;;;; 17.0 ; 1.75 ;1.6;4.1;3.6; 4.00 
+1129;2287;Uluyol;Retail;Mass;;;; 13.0 ; 2.75 ;2.8;3.2;4.3; 4.10 
+1130;4864;Bursa Yenişehir;Retail;Private RM;;;; 12.5 ; 2.88 ;3.8;3.6;3; 2.60 
+1131;1752;Yeşilyayla;Retail;Mass;;;; 23.4 ; 1.00 ;1.3;4.9;3.7; 4.40 
+1132;4189;Yıldırım;Retail;Private RM;;;; 12.8 ; 2.80 ;1.9;3.3;4.1; 2.90 
+1133;2366;Bayramiç;Retail;Mass;;;; 16.2 ; 1.95 ;3.9;3.8;3.9; 4.00 
+1134;3164;Biga;Retail;Mass;;;; 16.6 ; 1.85 ;3.2;4.2;4.2; 4.60 
+1135;4803;Çan;Retail;Mass;;;; 18.6 ; 1.35 ;2.8;4.2;3.6; 3.50 
+1136;2683;Ezine;Retail;Mass;;;; 21.8 ; 1.00 ;3;4.5;2.1; 3.80 
+1137;3557;Gelibolu;Retail;Mass;;;; 21.8 ; 1.00 ;2.8;4.9;3; 4.10 
+1138;2223;Lapseki;Retail;Mass;;;; 11.4 ; 3.15 ;3.5;4.6;3.6; 4.10 
+1139;885;Çanakkale;Retail;RM;;;; 16.3 ; 1.93 ;1.4;4.2;3.3; 4.20 
+1140;1757;Çanakkale Barbaros;Retail;Mass;;;; 21.4 ; 1.00 ;3.2;4.2;4.2; 4.60 
+1141;273;Çerkeş;Retail;Mass;;;; 19.4 ; 1.15 ;1.7;2;4.5; 4.30 
+1142;24;Çankırı;Retail;RM;;;; 13.9 ; 2.53 ;4.9;3.7;1; 3.50 
+1143;906;Alaca;Retail;Mass;;;; 24.6 ; 1.00 ;2.8;2;4.5; 3.30 
+1144;3193;Mecitözü;Retail;Mass;;;; 24.6 ; 1.00 ;3.3;4.8;4.2; 3.60 
+1145;400;Çorum;Retail;Mass;;;; 19.8 ; 1.05 ;2.3;1.4;3.3; 3.00 
+1146;4289;Osmancık;Retail;RM;;;; 16.0 ; 2.00 ;1.7;4.2;3; 4.10 
+1147;633;Acıpayam;Retail;Mass;;;; 15.8 ; 2.05 ;1;4.5;4.3; 3.30 
+1148;4108;Bozkurt;Retail;Mass;;;; 20.6 ; 1.00 ;3.4;5;4.3; 4.30 
+1149;2614;Çal;Retail;Mass;;;; 12.6 ; 2.85 ;3.2;3.6;4.5; 3.80 
+1150;4383;Çivril;Retail;Mass;;;; 17.8 ; 1.55 ;3.7;4.6;4.2; 3.70 
+1151;771;Denizli;Retail;RM;;;; 13.6 ; 2.60 ;2.5;1.3;4.1; 3.70 
+1152;2454;Denizli Bayramyeri;Retail;Private RM;;;; 12.5 ; 2.88 ;3.5;3.4;3.8; 3.60 
+1153;4717;Denizli Sanayi;SME;SME RM;;;; 9.0 ; 3.75 ;3.5;4.5;4.5; 3.40 
+1154;542;Saltak;Retail;Mass;;;; 11.4 ; 3.15 ;2.4;3.9;4; 4.40 
+1155;1713;Sarayköy;Retail;Mass;;;; 26.6 ; 1.00 ;3.8;4.8;3.6; 4.40 
+1156;4674;Tavas;Retail;Mass;;;; 24.6 ; 1.00 ;4.1;5;4.4; 4.70 
+1157;3217;Bismil;Retail;Mass;;;; 22.6 ; 1.00 ;2.2;4.6;3.8; 3.80 
+1158;553;Çınar;Retail;Mass;;;; 11.4 ; 3.15 ;2.9;5;2.9; 3.90 
+1159;3152;Ergani;Retail;Mass;;;; 11.8 ; 3.05 ;1.7;3.6;4; 4.40 
+1160;4439;Diyarbakır Plaza;Retail;Mass;;;; 19.0 ; 1.25 ;2.7;4.1;2.5; 2.80 
+1161;2428;Kayapınar;Retail;Mass;;;; 11.8 ; 3.05 ;2.2;3.3;2.4; 3.10 
+1162;2914;Silvan;Retail;Mass;;;; 16.2 ; 1.95 ;3.3;4.6;4.5; 4.40 
+1163;3265;Dağkapı;Retail;Mass;;;; 16.6 ; 1.85 ;1.9;2.5;4.2; 3.70 
+1164;3234;Diyarbakır;Retail;RM;;;; 6.1 ; 4.24 ;2.2;3.3;3.9; 4.30 
+1165;2793;Akçakoca;Retail;Mass;;;; 19.0 ; 1.25 ;3.2;2.1;4.3; 3.70 
+1166;719;Düzce;Retail;RM;;;; 10.5 ; 3.38 ;2.6;3.9;1.3; 3.50 
+1167;3428;Düzce Meydan;Retail;RM;;;; 14.6 ; 2.35 ;4.1;1.4;3; 3.10 
+1168;664;Yığılca;Retail;Mass;;;; 17.0 ; 1.75 ;3.2;4.1;3; 4.10 
+1169;2964;Havsa;Retail;Mass;;;; 20.6 ; 1.00 ;2.9;4.4;4.4; 4.20 
+1170;3845;İpsala;Retail;Mass;;;; 15.0 ; 2.25 ;2.7;1.7;2.9; 2.70 
+1171;4848;Keşan;Retail;Mass;;;; 22.2 ; 1.00 ;2.8;3.8;4.5; 4.60 
+1172;4274;Lalapaşa;Retail;Mass;;;; 24.6 ; 1.00 ;3.4;4.7;3.2; 4.40 
+1173;3161;Meriç;Retail;Mass;;;; 20.6 ; 1.00 ;1.2;5;2.5; 3.60 
+1174;920;Edirne;Retail;RM;;;; 13.9 ; 2.53 ;3.8;3.4;2.7; 3.80 
+1175;3929;Edirne Mimar Sinan;Retail;Mass;;;; 19.4 ; 1.15 ;2.9;1.7;4.4; 3.70 
+1176;539;Uzunköprü;Retail;Mass;;;; 18.2 ; 1.45 ;1.6;4.7;2.2; 4.10 
+1177;973;Kovancılar;Retail;Mass;;;; 20.2 ; 1.00 ;3.7;3.1;2.8; 2.70 
+1178;2505;Elazığ;Retail;RM;;;; 12.2 ; 2.95 ;3;3.9;3; 4.00 
+1179;226;Erzincan;Retail;Mass;;;; 24.6 ; 1.00 ;4;4.2;4.2; 4.30 
+1180;4027;Refahiye;Retail;Mass;;;; 17.8 ; 1.55 ;3.3;4.3;4.5; 4.40 
+1181;1974;Tercan;Retail;Mass;;;; 22.2 ; 1.00 ;3.2;4.3;1.3; 3.60 
+1182;3638;Hınıs;Retail;Mass;;;; 22.2 ; 1.00 ;1.3;4.2;4.2; 4.10 
+1183;2094;Horasan;Retail;Mass;;;; 19.0 ; 1.25 ;3.4;2.5;3.7; 3.80 
+1184;4070;Oltu;Retail;Mass;;;; 10.2 ; 3.45 ;3.6;3.8;3.4; 4.20 
+1185;475;Pasinler;Retail;Mass;;;; 7.4 ; 4.08 ;1.3;2.1;3; 3.50 
+1186;4597;Erzurum;Retail;RM;;;; 12.2 ; 2.95 ;2.2;1.9;4.5; 3.80 
+1187;3056;Erzurum Yakutiye;Retail;Mass;;;; 21.8 ; 1.00 ;3.9;4.6;4.2; 4.60 
+1188;1145;Alpu;Retail;Mass;;;; 23.4 ; 1.00 ;2.9;1.7;3.1; 2.60 
+1189;418;Eskişehir Çifteler;Retail;RM;;;; 8.2 ; 3.95 ;3.2;4.3;1.9; 3.40 
+1190;3811;Eskişehir Organize Sanayi;SME;SME RM;;;; 3.0 ; 4.63 ;5;4.4;4.7; 4.70 
+1191;3710;Eskişehir Yunus Emre;Retail;Private RM;;;; 14.4 ; 2.40 ;4.9;3.9;4; 3.50 
+1192;1249;Seyitgazi;Retail;Mass;;;; 10.2 ; 3.45 ;4.1;3;3.5; 4.10 
+1193;1771;Sivrihisar;Retail;Mass;;;; 15.4 ; 2.15 ;3.2;4.8;4.4; 4.40 
+1194;4783;Eskişehir;Retail;RM;;;; 17.7 ; 1.58 ;4.8;4.1;4.5; 4.20 
+1195;1641;Eskişehir Bağlar;Retail;RM;;;; 10.5 ; 3.38 ;2.7;3.6;3.4; 4.10 
+1196;2332;Araban;Retail;Mass;;;; 15.8 ; 2.05 ;3.2;3.7;3.9; 4.40 
+1197;241;İslahiye;Retail;Mass;;;; 16.6 ; 1.85 ;3.6;1.9;3.5; 3.40 
+1198;1712;Nizip;Retail;Mass;;;; 13.8 ; 2.55 ;2.8;4.8;3.3; 4.30 
+1199;2592;Nurdağı;Retail;Mass;;;; 17.4 ; 1.65 ;3.9;2.6;3.8; 4.20 
+1200;831;Binevler;Retail;Mass;;;; 15.4 ; 2.15 ;3.4;4.6;2.2; 3.80 
+1201;2334;Şahinbey;Retail;Private RM;;;; 8.0 ; 4.00 ;3.6;3.1;4.2; 3.90 
+1202;4407;Şirehan;Retail;Mass;;;; 26.6 ; 1.00 ;1.7;4.6;3.2; 4.10 
+1203;1383;Gatem;Retail;Mass;;;; 20.2 ; 1.00 ;3.3;2.9;4.2; 3.90 
+1204;2624;Gaziantep;SME;SME RM;;;; 5.4 ; 4.33 ;3.8;3.6;5; 4.20 
+1205;3936;Gaziantep Ticari Merkez;Commercial;Commercial;;;; 7.0 ; 4.13 ;4.3;3.7;2.1; 3.80 
+1206;3619;Bulancak;Retail;Mass;;;; 19.4 ; 1.15 ;3.2;4.3;4.2; 4.20 
+1207;1747;Görele;Retail;Mass;;;; 26.2 ; 1.00 ;1.2;4.9;3.8; 4.50 
+1208;4406;Giresun;Retail;Mass;;;; 25.4 ; 1.00 ;3.7;4.1;2.1; 3.40 
+1209;4893;Şebinkarahisar;Retail;Mass;;;; 23.0 ; 1.00 ;3.3;4.8;3.6; 3.70 
+1210;1691;Gümüşhane;Retail;Mass;;;; 25.0 ; 1.00 ;2.2;3.8;2.8; 3.60 
+1211;3181;Hakkari;Retail;Mass;;;; 23.0 ; 1.00 ;3.2;4.3;3.8; 4.30 
+1212;1991;Yüksekova;Retail;Mass;;;; 21.8 ; 1.00 ;3.6;3.8;3.9; 4.20 
+1213;2965;Antakya;Retail;RM;;;; 6.8 ; 4.15 ;3.4;1.1;4.2; 3.90 
+1214;2556;Antakya Çarşı;SME;SME RM;;;; 12.6 ; 2.85 ;3.5;3.1;4.2; 4.30 
+1215;3413;Dörtyol;Retail;RM;;;; 16.3 ; 1.93 ;2;3.1;4.2; 4.20 
+1216;51;İskenderun;Retail;RM;;;; 9.9 ; 3.53 ;4.1;3.5;3.4; 3.50 
+1217;57;Kırıkhan;Retail;Mass;;;; 20.6 ; 1.00 ;1.2;4.3;4.2; 4.20 
+1218;2441;Samandağ;Retail;Mass;;;; 18.2 ; 1.45 ;2.3;4.4;3; 4.20 
+1219;1061;Iğdır;Retail;RM;;;; 13.6 ; 2.60 ;4.7;3.2;3.1; 3.80 
+1220;1014;Tuzluca;Retail;Mass;;;; 18.2 ; 1.45 ;3.2;4.6;3.6; 4.40 
+1221;1034;Keçiborlu;Retail;Mass;;;; 20.6 ; 1.00 ;1.2;4.4;2.3; 3.80 
+1222;3066;Isparta;Retail;RM;;;; 15.3 ; 2.18 ;4.9;3.4;3; 4.00 
+1223;786;Şarkikaraağaç;Retail;Mass;;;; 21.0 ; 1.00 ;4;3.8;4.5; 4.30 
+1224;3363;Yalvaç;Retail;Mass;;;; 10.6 ; 3.35 ;3.7;4.3;2; 2.30 
+1225;2524;Mersin;Retail;Mass;;;; 13.8 ; 2.55 ;2.7;4.9;3.2; 4.10 
+1226;1987;Mersin Hal;SME;SME RM;;;; 7.2 ; 4.10 ;2.6;3.3;4.9; 4.40 
+1227;1560;Mersin Liman;SME;SME RM;;;; 13.8 ; 2.55 ;4.3;4.4;2.7; 3.90 
+1228;2011;Mersin Serbest Bölge;Commercial;Commercial;1;;; 3.3 ; 4.59 ;4.5;4.3;2.6; 3.50 
+1229;889;Metropol;SME;SME RM;;;; 12.3 ; 2.93 ;3.9;3.6;4.7; 3.60 
+1230;78;Anamur;Retail;RM;;;; 16.7 ; 1.83 ;2.8;3.4;4.2; 3.50 
+1231;4459;Erdemli;Retail;Mass;;;; 21.4 ; 1.00 ;3;3.8;4.2; 4.10 
+1232;4956;Gülnar;Retail;Mass;;;; 21.8 ; 1.00 ;2.7;4.6;4.2; 4.30 
+1233;2487;Mezitli;Retail;Mass;;;; 14.2 ; 2.45 ;2.9;5;4.3; 3.60 
+1234;3319;Mut;Retail;Mass;;;; 17.0 ; 1.75 ;3.7;4.2;4.4; 4.00 
+1235;4972;Silifke;Retail;Mass;;;; 17.0 ; 1.75 ;3.2;4.3;2.9; 3.90 
+1236;2628;Tarsus;Retail;Private RM;;;; 14.1 ; 2.48 ;3.6;3.1;2.3; 3.40 
+1237;1934;Tarsus Hal;SME;SME RM;;;; 13.5 ; 2.63 ;2.8;1.4;3.9; 3.00 
+1238;2374;Tarsus Yarenlik;Retail;Mass;;;; 17.8 ; 1.55 ;3.1;4.7;4.3; 4.50 
+1239;3773;Pozcu;Retail;Mass;;;; 24.2 ; 1.00 ;1.6;3.7;3; 3.90 
+1240;3536;Büyükada;Retail;Private RM;;;; 15.0 ; 2.25 ;2.1;3.5;4.5; 3.00 
+1241;2473;Arnavutköy;Retail;Private RM;;;; 15.4 ; 2.15 ;2.7;3.4;2.1; 3.70 
+1242;3553;Ataşehir;Retail;Private RM;;;; 12.2 ; 2.95 ;4.3;3.3;3.5; 3.40 
+1243;4611;Batı Ataşehir;Private;Private RM;;;; 4.1 ; 4.49 ;2.1;3.5;2.9; 3.70 
+1244;673;Ferhatpaşa;Retail;Mass;;;; 16.6 ; 1.85 ;2.6;4.4;3; 2.40 
+1245;4388;İçerenköy;Retail;RM;;;; 10.5 ; 3.38 ;2.7;3.2;2.4; 3.60 
+1246;863;Küçükbakkalköy;Retail;RM;;;; 18.7 ; 1.33 ;5;3.2;3.4; 3.80 
+1247;1547;Avcılar;Retail;Mass;;;; 12.6 ; 2.85 ;3.2;4.1;4; 4.40 
+1248;1429;Avcılar Çarşı;SME;SME RM;;;; 10.8 ; 3.30 ;3.2;1.2;5; 3.90 
+1249;2445;Firuzköy;Retail;Mass;;;; 19.0 ; 1.25 ;1.7;4.6;3.6; 4.00 
+1250;804;Bağcılar;Retail;Mass;;;; 21.4 ; 1.00 ;1;4.4;4.5; 4.50 
+1251;4823;Bağcılar Çarşı;SME;SME RM;;;; 15.3 ; 2.18 ;4.4;1.8;3.9; 2.80 
+1252;64;Güneşli;Retail;RM;;;; 15.3 ; 2.18 ;2.2;3.7;3.8; 4.40 
+1253;393;Güneşli Metro;SME;SME RM;;;; 12.6 ; 2.85 ;4.2;2.8;4.7; 4.50 
+1254;2938;Güneşli Ticari Merkez;Commercial;Commercial;;;; 5.8 ; 4.28 ;4.1;3.3;4.5; 4.10 
+1255;4491;İstoç;SME;SME RM;;;; 13.8 ; 2.55 ;3.9;3.3;5; 3.70 
+1256;69;Bahçelievler;Retail;Mass;;;; 12.6 ; 2.85 ;2.9;4.3;1.4; 3.20 
+1257;494;Kuyumcukent;SME;SME RM;;;; 11.4 ; 3.15 ;2.8;4.2;3.2; 3.60 
+1258;481;Şirinevler;Retail;Mass;;;; 26.6 ; 1.00 ;1.1;2.6;3.8; 4.00 
+1259;2154;Yenibosna;SME;SME RM;;;; 12.0 ; 3.00 ;3.2;4.2;2; 3.70 
+1260;2068;Atrium;Retail;RM;;1;4723; 6.6 ; 4.18 ;4.2;4.1;2; 3.90 
+1261;4723;Bakırköy;Retail;RM;;;; 15.6 ; 2.10 ;4.7;4.2;2.3; 3.30 
+1262;1503;Bakırköy Çarşı;SME;SME RM;;;; 12.0 ; 3.00 ;4.5;1.5;4.7; 3.90 
+1263;707;Florya;Retail;Private RM;;;; 16.3 ; 1.93 ;4.6;4;2.5; 3.70 
+1264;108;İstanbul Büyükşehir Belediyesi Ofis;Retail;Mass;1;1;174; 3.8 ; 4.53 ;2.7;4.1;3.2; 3.00 
+1265;4147;Yeşilköy;Private;Private RM;;;; 4.9 ; 4.39 ;1.5;3.3;4.5; 4.20 
+1266;3445;3.Cadde / Bahçeşehir;Retail;RM;;;; 15.6 ; 2.10 ;4.5;3.8;3.8; 4.00 
+1267;3414;İkitelli;SME;SME RM;;;; 6.6 ; 4.18 ;3.6;3.4;4.4; 3.90 
+1268;4963;Bayrampaşa;Retail;Mass;;;; 23.8 ; 1.00 ;1.4;1.3;4.5; 2.20 
+1269;4726;Bayrampaşa Hal;SME;SME RM;;;; 17.4 ; 1.65 ;4.9;3.2;3.6; 4.10 
+1270;4093;Beşyüzevler;Retail;Mass;;;; 25.0 ; 1.00 ;3.6;3.9;2; 3.70 
+1271;2456;Mega Center;SME;SME RM;;;; 8.7 ; 3.83 ;3.9;4.2;4.9; 4.50 
+1272;2887;Terazidere;Retail;Mass;;;; 13.0 ; 2.75 ;2.5;4.2;4.1; 3.90 
+1273;3507;1. Levent;Retail;Private RM;;;; 18.2 ; 1.45 ;3.9;4.3;1.5; 3.60 
+1274;1637;Bahçeşehir Üniversitesi;Retail;Mass;1;1;2848; 4.9 ; 4.39 ;2.6;5;3.8; 3.40 
+1275;3999;Bebek;Private;Private RM;;;; 5.7 ; 4.29 ;2.8;4.2;2; 3.80 
+1276;2848;Beşiktaş;Retail;Private RM;;;; 15.7 ; 2.08 ;4.1;4.5;2.3; 3.60 
+1277;3664;Beşiktaş Stadı;Retail;Mass;;1;2848; 4.0 ; 4.50 ;3.5;1.5;2.9; 2.90 
+1278;593;Etiler;Private;Private RM;;;; 3.6 ; 4.55 ;1.6;3.1;3.1; 3.50 
+1279;2058;Levent Büyükdere Caddesi;Retail;Private RM;;;; 17.9 ; 1.53 ;3.8;2.7;4.3; 4.00 
+1280;2602;Beykoz;Retail;RM;;;; 9.5 ; 3.63 ;3;4.4;3.3; 3.90 
+1281;4598;Kavacık;Retail;RM;;;; 5.8 ; 4.28 ;2.3;4.1;3.6; 4.00 
+1282;946;Beylikdüzü;Retail;Mass;;;; 21.0 ; 1.00 ;1.1;4.8;4.2; 4.40 
+1283;601;Bankalar Caddesi;SME;SME RM;;;; 8.4 ; 3.90 ;3.6;2.9;2; 3.10 
+1284;2084;Beyoğlu;Retail;Private RM;;;; 7.0 ; 4.13 ;2.3;2.4;3.4; 3.40 
+1285;3837;Karaköy;SME;SME RM;;;; 13.2 ; 2.70 ;2.1;2.9;3.8; 3.30 
+1286;3062;Kasımpaşa;Retail;Mass;;;; 17.4 ; 1.65 ;1.9;4.2;3.9; 4.30 
+1287;983;Beykent;Retail;Mass;;;; 14.6 ; 2.35 ;2.8;3.9;2.9; 3.80 
+1288;1814;Büyükçekmece;Retail;RM;;;; 10.2 ; 3.45 ;4.6;3.3;3.5; 4.00 
+1289;742;Hadımköy Yolu;Retail;Mass;;;; 24.2 ; 1.00 ;3.4;3.8;4.5; 4.40 
+1290;2090;Çatalca;Retail;Mass;;;; 21.0 ; 1.00 ;4;4.7;4.1; 3.90 
+1291;2410;Çekmeköy;Retail;RM;;;; 18.4 ; 1.40 ;1.6;4.2;3.8; 3.60 
+1292;4650;Taşdelen;Retail;Mass;;;; 21.4 ; 1.00 ;2.9;3.8;4; 4.20 
+1293;2659;Esenler;Retail;Mass;;;; 18.6 ; 1.35 ;2;4.8;2.9; 4.30 
+1294;356;Yüzyıl;Retail;Mass;;;; 11.4 ; 3.15 ;3;4.6;2.3; 3.50 
+1295;1342;Esenyurt;Retail;Mass;;;; 15.4 ; 2.15 ;3.6;1.8;4.1; 2.80 
+1296;3759;Esenyurt Cumhuriyet Caddesi;Retail;Mass;;;; 17.8 ; 1.55 ;2.7;4.7;4.2; 4.20 
+1297;1556;Eyüp;Retail;RM;;;; 12.9 ; 2.78 ;1.5;2.7;3.4; 4.00 
+1298;4830;Kemerburgaz Göktürk;Private;Private RM;;;; 2.7 ; 4.66 ;1.6;4.2;3.8; 4.20 
+1299;4623;Rami;SME;SME RM;;;; 14.7 ; 2.33 ;3.1;4.1;5; 4.50 
+1300;3819;Topçular;Retail;Mass;;;; 8.6 ; 3.85 ;3.1;4.6;3.8; 4.50 
+1301;4849;Beyazıt;Retail;RM;;;; 10.9 ; 3.28 ;3.6;1.8;4; 2.60 
+1302;174;Fatih;Retail;RM;;;; 13.9 ; 2.53 ;2;3.5;4.5; 4.50 
+1303;286;Fındıkzade;Retail;RM;;;; 11.6 ; 3.10 ;4.5;4.5;2.3; 3.90 
+1304;104;İstanbul Aksaray;Retail;RM;;;; 10.2 ; 3.45 ;3.1;3.2;4.5; 3.10 
+1305;2945;Kapalıçarşı;SME;SME RM;;;; 18.0 ; 1.50 ;1.3;2.7;5; 3.90 
+1306;3891;Kıymetli Maden Ve Dövizli İşlemler;Commercial;Commercial;1;;; 3.9 ; 4.51 ;2.7;4;4.2; 4.30 
+1307;1518;Kocamustafapaşa;Retail;RM;;;; 17.3 ; 1.68 ;4.5;1.7;3.1; 2.80 
+1308;1390;Laleli;Retail;Private RM;;;; 16.0 ; 2.00 ;4.6;1.8;4; 3.90 
+1309;4354;Nuruosmaniye;Retail;Mass;;;; 18.2 ; 1.45 ;2.2;3.7;4.2; 3.80 
+1310;156;Sirkeci;Retail;RM;;;; 8.8 ; 3.80 ;4.5;3;3; 3.40 
+1311;2025;Sultanhamam;SME;SME RM;;;; 6.3 ; 4.21 ;1.3;1.7;1.5; 3.10 
+1312;802;Şehzadebaşı;Retail;RM;;;; 11.2 ; 3.20 ;1.5;2.2;3.1; 3.40 
+1313;4732;Avrupa Tem;Retail;Mass;;;; 18.6 ; 1.35 ;1.6;4.7;3.4; 4.10 
+1314;2201;Gaziosmanpaşa Çarşı;SME;SME RM;;;; 15.9 ; 2.03 ;4.5;3.4;4.9; 4.20 
+1315;3467;İstanbul Gaziosmanpaşa;Retail;Mass;;;; 21.4 ; 1.00 ;3.4;5;3.5; 4.10 
+1316;2739;Güngören;Retail;Mass;;;; 16.6 ; 1.85 ;3;5;2.9; 3.80 
+1317;774;Güngören Çarşı;SME;SME RM;;;; 12.0 ; 3.00 ;4.5;3.2;4.9; 3.90 
+1318;3231;Merter;SME;SME RM;;;; 17.4 ; 1.65 ;4.1;4.3;2.7; 4.00 
+1319;3733;Acıbadem;Retail;Private RM;;;; 15.4 ; 2.15 ;5;3.2;3.6; 4.20 
+1320;412;Altıyol;Retail;RM;;;; 15.3 ; 2.18 ;4.5;2.2;4.2; 3.90 
+1321;4981;Bağdat Caddesi;Private;Private RM;;;; 3.6 ; 4.55 ;2.1;3.4;2; 3.40 
+1322;201;Çemenzar;Retail;Mass;;;; 18.2 ; 1.45 ;2.1;3.7;2.1; 3.40 
+1323;977;Fikirtepe;Retail;Mass;;;; 21.8 ; 1.00 ;2.5;1.5;3.4; 3.60 
+1324;3045;Göztepe İstasyon;Retail;RM;;;; 17.0 ; 1.75 ;4.3;3.3;4.4; 3.70 
+1325;336;Kadıköy Rıhtım;Retail;RM;;;; 16.7 ; 1.83 ;3.4;4;3.3; 4.30 
+1326;3379;Kazasker;Retail;Mass;;;; 14.2 ; 2.45 ;3.9;2.3;3.6; 3.50 
+1327;1029;Kızıltoprak;Retail;RM;;;; 16.0 ; 2.00 ;5;4;3.1; 3.40 
+1328;1473;Koşuyolu;Retail;Private RM;;;; 8.3 ; 3.93 ;4.2;4.5;3.2; 3.00 
+1329;3248;Kozyatağı Ticari Merkez;Commercial;Commercial;;;; 2.0 ; 4.75 ;4.2;2.9;2.7; 3.80 
+1330;635;Moda;Private;Private RM;;;; 2.4 ; 4.70 ;2.7;4.5;2.4; 3.60 
+1331;1287;Sahrayıcedid;Retail;RM;;;; 17.0 ; 1.75 ;2;4.2;1.1; 2.30 
+1332;3839;Suadiye;Private;Private RM;;;; 1.0 ; 4.88 ;4.4;3.3;4; 4.00 
+1333;1459;4. Levent;Retail;RM;;;; 8.2 ; 3.95 ;4.5;1;4.5; 3.90 
+1334;1522;Çağlayan;Retail;RM;;;; 14.3 ; 2.43 ;3.8;4.2;4.2; 4.20 
+1335;1734;Kağıthane;Retail;Mass;;;; 20.2 ; 1.00 ;4;4.8;3.7; 4.20 
+1336;1434;Kartal Çarşı;SME;SME RM;;;; 6.3 ; 4.21 ;2.8;4.5;4.7; 4.50 
+1337;1009;Soğanlık;Retail;Mass;;;; 19.4 ; 1.15 ;2.7;4.7;4.3; 4.30 
+1338;3461;Cennet Mahallesi;Retail;Mass;;;; 22.6 ; 1.00 ;1.8;3.2;2.4; 3.40 
+1339;4728;Halkalı;Retail;Mass;;;; 17.0 ; 1.75 ;3;2.5;3.8; 3.60 
+1340;1054;İmsan İkitelli;SME;SME RM;;;; 8.4 ; 3.90 ;4.4;4.2;4.2; 4.60 
+1341;4007;Sefaköy;Retail;Mass;;;; 22.2 ; 1.00 ;2;2.9;2.4; 3.20 
+1342;953;Tümsan Başakşehir;Retail;Mass;;;; 11.0 ; 3.25 ;1.4;4.7;2.8; 4.10 
+1343;4183;İdealtepe;Retail;Mass;;;; 22.2 ; 1.00 ;2.8;3.8;4.4; 3.50 
+1344;3615;Küçükyalı;Retail;RM;;;; 16.3 ; 1.93 ;3.8;3.6;3.5; 3.70 
+1345;3785;Maltepe;Retail;RM;;;; 8.8 ; 3.80 ;3.4;3.4;3.8; 4.20 
+1346;621;Kaynarca;Retail;Mass;;;; 17.8 ; 1.55 ;3.3;5;3.5; 4.10 
+1347;3249;Kurtköy;Retail;Mass;;;; 16.6 ; 1.85 ;3.5;3.2;2.9; 3.50 
+1348;267;Pendik;Retail;Mass;;;; 24.6 ; 1.00 ;3.3;3.9;4; 4.10 
+1349;53;Pendik Çarşı;SME;SME RM;;;; 4.5 ; 4.44 ;3.9;4.2;3; 2.30 
+1350;498;Pendik E-5;Retail;Mass;;;; 20.6 ; 1.00 ;3.2;5;4.5; 4.70 
+1351;3922;Sancaktepe;Retail;Mass;;;; 23.8 ; 1.00 ;1.2;4.5;2.6; 3.00 
+1352;4025;Maslak;SME;SME RM;;;; 9.9 ; 3.53 ;3.9;2.4;4.7; 3.40 
+1353;484;Sarıyer;Retail;Private RM;;;; 3.8 ; 4.53 ;4.8;2.6;3.3; 3.00 
+1354;2240;Silivri;Retail;Mass;;;; 19.8 ; 1.05 ;2.4;3;3.5; 3.30 
+1355;1047;Sultanbeyli;Retail;Mass;;;; 22.6 ; 1.00 ;2.8;2.5;3.5; 3.90 
+1356;2598;Sultançiftliği;Retail;Mass;;;; 17.4 ; 1.65 ;3.1;4.8;3.7; 4.10 
+1357;678;Avrupa Kurumsal;Commercial;Commercial;1;;; 1.7 ; 4.79 ;4.9;1.9;4.5; 3.20 
+1358;4873;Bahçekapı Ticari Merkez;Commercial;Commercial;;;; 7.0 ; 4.13 ;4.5;2.9;3.8; 3.90 
+1359;464;Elmadağ;Retail;Private RM;;;; 14.1 ; 2.48 ;4.9;3.7;3.8; 3.50 
+1360;2448;Esentepe Ticari Merkez;Commercial;Commercial;;;; 4.7 ; 4.41 ;4.4;2.5;3.4; 3.60 
+1361;3841;Gayrettepe Ticari Merkez;Commercial;Commercial;;;; 5.8 ; 4.28 ;3.8;3.3;1.6; 3.30 
+1362;3966;Internet Şube;Retail;Mass;1;;; 3.9 ; 4.51 ;1.8;2.9;1.8; 3.00 
+1363;1302;İstanbul Anadolu Ticari Merkez;Commercial;Commercial;;;; 4.6 ; 4.43 ;3.1;3.6;3.6; 4.20 
+1364;4532;Maslak Ticari Merkez Ve İstanbul Kamu Finansmanı;Commercial;Commercial;1;;; 2.6 ; 4.68 ;4.8;4.2;3.2; 4.00 
+1365;2485;Mecidiyeköy;Retail;RM;;;; 8.5 ; 3.88 ;4.5;4.3;3.3; 3.80 
+1366;3680;Mobil Şube 1;Retail;Mass;;;; 22.6 ; 1.00 ;2.6;4.2;1.6; 3.60 
+1367;2471;Mobil Şube 2;Retail;Mass;;;; 11.0 ; 3.25 ;4.1;4.2;3.9; 4.40 
+1368;198;Nişantaşı;Private;Private RM;;;; 4.1 ; 4.49 ;3.7;2.7;3.6; 3.70 
+1369;4831;Özel Bankacılık Merkezi;Private;Private RM;1;;; 3.8 ; 4.53 ;1.6;2.2;1.9; 2.90 
+1370;2289;Perpa;SME;SME RM;;;; 7.8 ; 4.03 ;3.3;3.9;3.8; 4.00 
+1371;1879;Saklama;Commercial;Commercial;1;;; 3.5 ; 4.56 ;4.9;2.8;4.5; 4.00 
+1372;389;Şişli;Retail;Private RM;;;; 17.6 ; 1.60 ;1.3;4.2;2.7; 3.70 
+1373;3810;Zincirlikuyu;Retail;RM;;;; 14.3 ; 2.43 ;2.7;4.1;4; 3.90 
+1374;911;Zincirlikuyu Ticari Merkez;Commercial;Commercial;;;; 4.9 ; 4.39 ;4.3;4.3;3.9; 4.30 
+1375;1060;Tuzla;Retail;RM;;;; 16.0 ; 2.00 ;2.4;3.1;2.8; 3.80 
+1376;4760;Tuzla Organize Sanayi;SME;SME RM;;;; 10.2 ; 3.45 ;4.6;3.2;4.6; 3.90 
+1377;2313;Tuzla Tersane;SME;SME RM;;;; 10.2 ; 3.45 ;4.9;3.8;4.6; 3.60 
+1378;1615;Dudullu;SME;SME RM;;;; 7.8 ; 4.03 ;4.3;3.3;4.9; 4.40 
+1379;2136;Ihlamurkuyu;Retail;Mass;;;; 21.8 ; 1.00 ;3.6;4.6;3.2; 3.90 
+1380;944;Keyap;SME;SME RM;;;; 16.8 ; 1.80 ;4.6;3;4.9; 3.70 
+1381;2464;Şerifali;Retail;Mass;;;; 17.8 ; 1.55 ;2.6;3.8;4.4; 3.70 
+1382;3304;Ümraniye;Retail;RM;;;; 8.8 ; 3.80 ;3.5;1.6;4.4; 4.10 
+1383;1106;Ümraniye Sanayi;SME;SME RM;;;; 8.4 ; 3.90 ;2.4;3;4.7; 4.10 
+1384;4138;Altunizade;Retail;RM;;;; 9.2 ; 3.70 ;3.6;2.2;4.4; 3.80 
+1385;2346;Beylerbeyi;Retail;RM;;;; 13.3 ; 2.68 ;2.5;3.5;4.2; 4.40 
+1386;3567;Libadiye;Retail;Mass;;;; 21.4 ; 1.00 ;2.7;3.5;4.4; 4.10 
+1387;1000;Nato Yolu;SME;SME RM;;;; 10.2 ; 3.45 ;4.5;2.9;4.5; 4.40 
+1388;4416;Üsküdar;Retail;RM;;;; 3.4 ; 4.58 ;3.2;3.4;3.9; 4.20 
+1389;914;Beş Telsiz;Retail;Mass;;;; 21.0 ; 1.00 ;1.6;2.6;4.3; 4.20 
+1390;3436;Topkapı Sanayi;SME;SME RM;;;; 4.2 ; 4.48 ;3.6;3;3; 3.60 
+1391;687;Zeytinburnu;Retail;RM;;;; 8.5 ; 3.88 ;4.1;2.2;4; 3.80 
+1392;1357;Aliağa;Retail;RM;;;; 18.4 ; 1.40 ;4.5;2.4;2.1; 3.30 
+1393;3890;Balçova;Retail;RM;;;; 12.2 ; 2.95 ;4.4;3;4.5; 4.10 
+1394;3856;Bayındır;Retail;Mass;;;; 19.4 ; 1.15 ;2.9;4.1;4.2; 3.70 
+1395;1642;Bayraklı;Retail;Mass;;;; 19.8 ; 1.05 ;3;3.9;1.9; 3.70 
+1396;2819;Manavkuyu;Retail;Mass;;;; 21.4 ; 1.00 ;3.2;3.8;2.9; 3.20 
+1397;148;Bergama;Retail;RM;;;; 15.6 ; 2.10 ;2.4;4.1;3.5; 4.40 
+1398;1769;2. Sanayi Sitesi;SME;SME RM;;;; 8.4 ; 3.90 ;2.2;3;4.4; 3.00 
+1399;826;Bornova;Retail;RM;;;; 17.0 ; 1.75 ;3.5;1.6;4.3; 3.70 
+1400;4518;Işıkkent;Retail;Mass;;;; 15.8 ; 2.05 ;3.2;4.4;3.5; 4.00 
+1401;3865;İzmir Altındağ;Retail;Mass;;;; 19.4 ; 1.15 ;1.2;3.6;2.9; 3.70 
+1402;4261;Pınarbaşı;Retail;Mass;;;; 24.2 ; 1.00 ;2.7;4.3;4.2; 4.20 
+1403;3498;Buca;Retail;RM;;;; 10.2 ; 3.45 ;4.3;3.5;4.3; 4.10 
+1404;451;Şirinyer;Retail;Mass;;;; 11.0 ; 3.25 ;1.8;4.2;3.3; 4.10 
+1405;511;Çeşme;Private;Private RM;;;; 5.8 ; 4.28 ;3.7;3.5;4.3; 4.20 
+1406;903;Çiğli;Retail;Mass;;;; 23.0 ; 1.00 ;1.1;4.6;3.5; 3.80 
+1407;1558;Çiğli Aosb;SME;SME RM;;1;903; 9.8 ; 3.55 ;4.1;4.5;5; 4.70 
+1408;4653;Adnan Menderes Hava Limanı;Retail;Mass;;1;2000; 3.7 ; 4.54 ;1.2;3;3; 3.70 
+1409;2000;Gaziemir;Retail;RM;;;; 7.5 ; 4.06 ;5;3.6;3.6; 4.10 
+1410;3730;Bozyaka;Retail;Mass;;;; 19.8 ; 1.05 ;1.7;4.3;3.7; 4.10 
+1411;936;Karabağlar İzmir;Retail;Mass;;;; 15.4 ; 2.15 ;1.8;3.2;3.4; 3.90 
+1412;485;Bostanlı;Private;Private RM;;;; 5.1 ; 4.36 ;1.3;3.7;3.4; 4.00 
+1413;2862;Girne Bulvarı;Retail;Mass;;;; 18.6 ; 1.35 ;3.5;4.6;3.7; 4.40 
+1414;1251;Karşıyaka;Retail;Private RM;;;; 15.4 ; 2.15 ;3.8;3.7;3.5; 3.70 
+1415;566;Kemalpaşa;Retail;Mass;;;; 22.2 ; 1.00 ;2.1;5;3.3; 4.30 
+1416;1668;Kınık;Retail;Mass;;;; 21.8 ; 1.00 ;1.8;5;4; 3.90 
+1417;2765;Kiraz;Retail;Mass;;;; 22.6 ; 1.00 ;2.7;5;3; 4.40 
+1418;1327;1.Sanayi İzmir;SME;SME RM;;;; 7.2 ; 4.10 ;2;3.9;4.8; 3.80 
+1419;2999;Alsancak;Private;Private RM;;;; 4.3 ; 4.46 ;1.9;1.5;3.3; 3.50 
+1420;1738;Çamdibi;Retail;Mass;;;; 12.6 ; 2.85 ;3.2;4.1;2.5; 3.70 
+1421;816;Ege Ticari Merkez;Commercial;Commercial;;;; 3.4 ; 4.58 ;5;4.4;4.5; 4.60 
+1422;1160;Fevzipaşa Bulvarı;Retail;RM;;;; 8.2 ; 3.95 ;4.2;3.5;2.3; 3.90 
+1423;986;Güzelyalı;Retail;Private RM;;;; 5.1 ; 4.36 ;4.1;1.7;3.2; 3.30 
+1424;4987;Hatay İzmir;Retail;Mass;;;; 22.6 ; 1.00 ;3.4;4.6;4.5; 4.40 
+1425;4182;İzmir;Retail;RM;;;; 16.0 ; 2.00 ;4.1;1.9;3.8; 2.60 
+1426;2717;İzmir Gıda Çarşısı;SME;SME RM;;;; 12.3 ; 2.93 ;4.9;4.3;4.4; 4.30 
+1427;4372;Şair Eşref;Retail;RM;;;; 18.7 ; 1.33 ;5;3.8;3.4; 3.30 
+1428;3075;Menderes;Retail;Mass;;;; 19.4 ; 1.15 ;2.8;4.6;4; 4.40 
+1429;1220;Menemen;Retail;Mass;;;; 19.4 ; 1.15 ;2.8;3.2;1.4; 2.70 
+1430;3453;Ödemiş;Retail;Mass;;;; 16.6 ; 1.85 ;4;3.5;3.1; 3.70 
+1431;3540;Tire;Retail;Mass;;;; 15.4 ; 2.15 ;3.3;3.7;2.8; 3.40 
+1432;3070;Torbalı;Retail;Mass;;;; 22.6 ; 1.00 ;3;3;2.4; 3.60 
+1433;3513;Urla;Private;Private RM;;;; 4.2 ; 4.48 ;4.9;4;4.4; 4.60 
+1434;56;Kahramanmaraş;Retail;RM;;;; 15.0 ; 2.25 ;4.3;3;4.4; 3.80 
+1435;4120;Kahramanmaraş Azerbaycan Bulvarı;Retail;Mass;;;; 9.4 ; 3.65 ;2.4;4.6;3.4; 4.40 
+1436;4286;Elbistan;Retail;Mass;;;; 17.4 ; 1.65 ;3;4.9;2.9; 4.20 
+1437;4704;Göksun;Retail;Mass;;;; 20.6 ; 1.00 ;1.1;4.8;3.6; 4.10 
+1438;1414;Pazarcık;Retail;Mass;;;; 15.0 ; 2.25 ;2.1;5;4; 3.60 
+1439;3944;Karabük;Retail;RM;;;; 6.8 ; 4.15 ;2.2;3.1;2.3; 2.90 
+1440;4113;Karaman;Retail;RM;;;; 6.8 ; 4.15 ;2.8;2.3;3.6; 3.70 
+1441;3587;Arpaçay;Retail;Mass;;;; 21.0 ; 1.00 ;2.8;3.8;4.2; 4.10 
+1442;2045;Kağızman;Retail;Mass;;;; 14.6 ; 2.35 ;3;4.6;2.1; 3.90 
+1443;2695;Kars;Retail;Mass;;;; 15.8 ; 2.05 ;3.3;1.3;4; 3.90 
+1444;469;Sarıkamış;Retail;Mass;;;; 15.8 ; 2.05 ;2.7;2.9;4.4; 4.30 
+1445;4999;Kars Selim;Retail;Mass;;;; 19.8 ; 1.05 ;2.4;3.1;4.4; 3.90 
+1446;1501;Kastamonu;Retail;Mass;;;; 17.4 ; 1.65 ;2;4.5;4.5; 4.50 
+1447;4791;Taşköprü;Retail;Mass;;;; 12.2 ; 2.95 ;4;4.2;4.1; 3.80 
+1448;4148;Tosya;Retail;Mass;;;; 13.8 ; 2.55 ;3.2;4.6;3.3; 4.20 
+1449;4300;Bünyan;Retail;Mass;;;; 19.0 ; 1.25 ;2.9;3.9;4; 4.40 
+1450;5000;Develi;Retail;Mass;;;; 17.8 ; 1.55 ;2.7;3;3.6; 4.00 
+1451;2869;Kayseri Eski Sanayi;SME;SME RM;;;; 9.0 ; 3.75 ;3.3;3.4;5; 4.60 
+1452;2244;Sahabiye;Retail;Mass;;;; 26.2 ; 1.00 ;3.4;4.1;2.4; 3.40 
+1453;1797;Kayseri;Retail;RM;;;; 12.9 ; 2.78 ;2;2.1;3.5; 3.80 
+1454;4222;Kayseri Organize Sanayi;SME;SME RM;;;; 5.1 ; 4.36 ;4.1;2.2;2.7; 3.70 
+1455;2926;Kayseri Ticari Merkez;Commercial;Commercial;;;; 5.8 ; 4.28 ;4.7;2.9;3.8; 4.00 
+1456;4980;Melikgazi;Retail;Mass;;;; 11.0 ; 3.25 ;3.4;2.6;3.4; 3.70 
+1457;134;Kayseri Pınarbaşı;Retail;RM;;;; 11.2 ; 3.20 ;4.5;3.5;3.1; 4.00 
+1458;261;Yeşilhisar;Retail;Mass;;;; 16.2 ; 1.95 ;3.7;4.8;4.2; 4.60 
+1459;4750;Kırıkkale Keskin;Retail;Mass;;;; 11.4 ; 3.15 ;4.2;4.6;4.4; 4.50 
+1460;598;Kırıkkale;Retail;RM;;;; 13.3 ; 2.68 ;2.6;1.8;4.4; 3.80 
+1461;2567;Kırıkkale Kurtuluş;Retail;Mass;;;; 18.2 ; 1.45 ;2.4;1.4;3.3; 3.20 
+1462;4334;Babaeski;Retail;Mass;;;; 21.8 ; 1.00 ;3.1;4.3;4.2; 4.60 
+1463;2837;Lüleburgaz;Retail;RM;;;; 5.4 ; 4.33 ;3.2;3.5;3.8; 4.10 
+1464;2723;Kırklareli;Retail;RM;;;; 11.6 ; 3.10 ;1.6;4.2;3.7; 4.30 
+1465;1415;Vize;Retail;Mass;;;; 21.0 ; 1.00 ;2.8;4.1;4.3; 4.50 
+1466;4570;Kaman;Retail;Mass;;;; 26.6 ; 1.00 ;3.9;4.8;2.9; 4.20 
+1467;1845;Kırşehir;Retail;RM;;;; 14.6 ; 2.35 ;3.8;2.5;3.8; 3.80 
+1468;4536;Mucur;Retail;Mass;;;; 19.8 ; 1.05 ;1.7;4.9;3.6; 4.40 
+1469;4224;Kilis;Retail;RM;;;; 7.1 ; 4.11 ;3.6;3.2;3.7; 4.10 
+1470;1940;Çayırova;SME;SME RM;;;; 12.3 ; 2.93 ;5;3.3;3.7; 2.60 
+1471;27;Darıca;Retail;RM;;;; 16.0 ; 2.00 ;4.7;2.9;3.7; 3.80 
+1472;4403;Derince;Retail;RM;;;; 12.6 ; 2.85 ;4.1;2.4;2.2; 2.20 
+1473;1163;Gebze;Retail;RM;;;; 10.9 ; 3.28 ;4.7;2.6;2.8; 2.60 
+1474;994;Gebze Ticari Merkez;Commercial;Commercial;;;; 6.2 ; 4.23 ;2.3;3.3;2.3; 3.20 
+1475;2606;Gebze Yeni Çarşı;SME;SME RM;;;; 12.6 ; 2.85 ;3.8;3;4.7; 4.30 
+1476;7;Gölcük;Retail;RM;;;; 12.6 ; 2.85 ;3.6;1.2;3.3; 3.50 
+1477;3584;Bekirpaşa;Retail;Mass;;;; 7.8 ; 4.03 ;2.6;5;4.2; 4.50 
+1478;189;İzmit;Retail;Private RM;;;; 10.9 ; 3.28 ;4.6;2.4;3.7; 3.70 
+1479;596;İzmit Çarşı;SME;SME RM;;;; 17.4 ; 1.65 ;4.7;3.2;4.7; 3.60 
+1480;4172;İzmit Ticari Merkez;Commercial;Commercial;;;; 5.3 ; 4.34 ;4.2;3.8;2.9; 2.50 
+1481;2117;Kandıra;Retail;Mass;;;; 23.0 ; 1.00 ;3.1;4.8;4.5; 4.00 
+1482;2411;Körfez;Retail;RM;;;; 13.9 ; 2.53 ;4.5;2.3;4.1; 4.00 
+1483;4590;Akşehir;Retail;Mass;;;; 23.8 ; 1.00 ;2.7;4.7;4.2; 4.60 
+1484;3133;Altınekin;Retail;Mass;;;; 22.6 ; 1.00 ;1.1;4.7;2.9; 4.20 
+1485;2795;Beyşehir;Retail;Mass;;;; 15.0 ; 2.25 ;2.8;5;3.8; 3.60 
+1486;1529;Cihanbeyli;Retail;Mass;;;; 18.2 ; 1.45 ;1.6;4.2;4.5; 4.40 
+1487;3765;Çumra;Retail;Mass;;;; 17.4 ; 1.65 ;3.4;4.2;3.7; 4.30 
+1488;2694;Konya Ereğli;Retail;RM;;;; 13.9 ; 2.53 ;1.7;2.6;3.6; 3.10 
+1489;3225;Ilgın;Retail;Mass;;;; 18.2 ; 1.45 ;3.4;4.6;4.5; 4.40 
+1490;3018;Kadınhanı;Retail;Mass;;;; 21.0 ; 1.00 ;3.2;4.1;4.2; 4.20 
+1491;4479;Karapınar;Retail;Mass;;;; 11.4 ; 3.15 ;3.2;3.7;3.8; 3.10 
+1492;3329;Konya Büsan;Retail;RM;;;; 4.1 ; 4.49 ;3.8;1.6;4.2; 4.00 
+1493;1773;Konya Ticari Merkez;Commercial;Commercial;;;; 2.8 ; 4.65 ;1.9;4.1;4.2; 4.50 
+1494;3328;Konya Yeni Toptancılar;SME;SME RM;;;; 12.6 ; 2.85 ;4.8;3.6;4.6; 4.60 
+1495;2780;Mevlana;Retail;RM;;;; 14.6 ; 2.35 ;4.1;3.5;3.9; 3.80 
+1496;2568;Kulu;Retail;Mass;;;; 20.6 ; 1.00 ;3.9;3.8;3.8; 4.40 
+1497;2340;Konya;Retail;RM;;;; 17.3 ; 1.68 ;3.8;4.4;3.9; 4.20 
+1498;3322;Zafer Meydanı;Retail;Mass;;;; 16.6 ; 1.85 ;1.1;5;4.4; 4.00 
+1499;250;Yunak;Retail;Mass;;;; 20.6 ; 1.00 ;2.5;3.8;4; 4.20 
+1500;1798;Altıntaş;Retail;Mass;;;; 19.8 ; 1.05 ;3.3;4.9;2.9; 3.70 
+1501;4993;Gediz;Retail;Mass;;;; 15.4 ; 2.15 ;2.7;1.9;3.8; 3.40 
+1502;3276;Kütahya;Retail;RM;;;; 15.3 ; 2.18 ;4.4;3.3;4.5; 3.20 
+1503;2238;Simav;Retail;Mass;;;; 16.6 ; 1.85 ;3.2;4.5;3.7; 4.20 
+1504;4800;Tavşanlı;Retail;Mass;;;; 25.4 ; 1.00 ;1.2;4.8;4; 3.80 
+1505;3347;Akçadağ;Retail;Mass;;;; 20.2 ; 1.00 ;1.9;3.3;3.9; 3.40 
+1506;2092;Malatya;Retail;RM;;;; 9.2 ; 3.70 ;4.1;2.4;4.5; 4.00 
+1507;3199;Malatya İnönü Caddesi;SME;SME RM;;;; 9.0 ; 3.75 ;2.1;3.3;4.8; 4.50 
+1508;4971;Doğanşehir;Retail;Mass;;;; 16.2 ; 1.95 ;3.3;4.2;4.3; 4.40 
+1509;2204;Akhisar;Retail;RM;;;; 15.3 ; 2.18 ;4.5;1.1;4.5; 3.10 
+1510;1355;Akhisar Çiftçievi;Retail;Mass;;;; 19.8 ; 1.05 ;2.6;4.6;4.3; 4.60 
+1511;4319;Alaşehir;Retail;RM;;;; 10.2 ; 3.45 ;4.7;2.4;3.3; 2.80 
+1512;2195;Demirci;Retail;Mass;;;; 16.2 ; 1.95 ;2.6;4.9;2.9; 4.00 
+1513;3415;Gölmarmara;Retail;Mass;;;; 25.4 ; 1.00 ;2.4;2.5;4.1; 3.70 
+1514;604;Gördes;Retail;Mass;;;; 22.2 ; 1.00 ;1.5;4.7;3.7; 4.20 
+1515;1495;Kırkağaç;Retail;Mass;;;; 12.2 ; 2.95 ;1.1;5;2.9; 3.90 
+1516;192;Kula;Retail;Mass;;;; 23.8 ; 1.00 ;2.2;3;4.5; 4.20 
+1517;4405;Salihli;Retail;RM;;;; 11.2 ; 3.20 ;4.1;3.7;2.9; 3.90 
+1518;581;Salihli Çiftçievi;Retail;Mass;;;; 9.8 ; 3.55 ;4.2;4.6;3.8; 2.70 
+1519;1190;Sarıgöl;Retail;Mass;;;; 26.6 ; 1.00 ;3.2;4.7;4.4; 4.00 
+1520;2850;Saruhanlı;Retail;Mass;;;; 23.4 ; 1.00 ;2.3;3.9;4.4; 4.30 
+1521;112;Soma;Retail;Mass;;;; 21.0 ; 1.00 ;3.7;4.4;4.5; 4.70 
+1522;2467;Manisa;Retail;Private RM;;;; 9.3 ; 3.68 ;4.3;2.9;3.3; 3.10 
+1523;1321;Manisa Cumhuriyet Bulvarı;Retail;RM;;;; 13.3 ; 2.68 ;2.1;4.4;4.2; 4.50 
+1524;3747;Turgutlu;Retail;RM;;;; 16.7 ; 1.83 ;1.4;2.2;3.7; 2.90 
+1525;735;Manisa Sanayi;SME;SME RM;;;; 13.8 ; 2.55 ;4.1;4;4.3; 3.60 
+1526;1500;Mardin;Retail;Mass;;;; 19.8 ; 1.05 ;1;4.6;3.4; 4.00 
+1527;1048;Derik;Retail;Mass;;;; 21.0 ; 1.00 ;3.6;2.6;4; 4.00 
+1528;2516;Kızıltepe;Retail;Mass;;;; 20.6 ; 1.00 ;3.1;4.8;3.7; 4.30 
+1529;2932;Midyat;Retail;Mass;;;; 9.0 ; 3.75 ;1.2;4.6;3; 4.10 
+1530;317;Nusaybin;Retail;Mass;;;; 23.0 ; 1.00 ;2.8;4.7;4.5; 4.40 
+1531;3572;Bodrum;Retail;RM;;;; 6.8 ; 4.15 ;2.2;2.9;2; 2.40 
+1532;4418;Bodrum Ortakent;Retail;Private RM;;;; 11.8 ; 3.05 ;4.7;2.6;3; 2.90 
+1533;3979;Çarşı Bodrum;SME;SME RM;;;; 11.1 ; 3.23 ;3;3.1;5; 4.10 
+1534;95;Turgutreis;Retail;Private RM;;;; 6.7 ; 4.16 ;4.3;3.3;3.9; 3.90 
+1535;2663;Yalıkavak;Private;Private RM;;;; 4.9 ; 4.39 ;4.7;3.7;3; 3.90 
+1536;2034;Fethiye;Retail;Private RM;;;; 10.9 ; 3.28 ;3.9;4.4;3; 3.80 
+1537;3585;Karaçulha;Retail;Mass;;;; 11.4 ; 3.15 ;3.2;4.3;2.4; 3.80 
+1538;4273;Marmaris;Retail;Private RM;;;; 16.0 ; 2.00 ;4.2;3.5;3.9; 4.00 
+1539;2359;Muğla;Retail;RM;;;; 9.9 ; 3.53 ;4.5;4;3.4; 4.20 
+1540;4169;Milas;Retail;RM;;;; 15.3 ; 2.18 ;5;4.1;2.9; 3.90 
+1541;463;Ortaca;Retail;Mass;;;; 19.0 ; 1.25 ;3.8;1.7;4.4; 3.30 
+1542;552;Yatağan;Retail;Mass;;;; 26.6 ; 1.00 ;2.3;5;4.3; 4.30 
+1543;3539;Bulanık;Retail;Mass;;;; 7.4 ; 4.08 ;2.8;4.9;3; 2.70 
+1544;3145;Malazgirt;Retail;Mass;;;; 25.4 ; 1.00 ;3;4.7;4.1; 4.20 
+1545;2889;Muş;Retail;Mass;;;; 16.2 ; 1.95 ;2.7;4.8;3; 3.00 
+1546;314;Varto;Retail;Mass;;;; 21.4 ; 1.00 ;1.2;3.5;4.3; 4.40 
+1547;1792;Nevşehir;Retail;RM;;;; 12.2 ; 2.95 ;3;4.5;4.1; 4.30 
+1548;181;Ürgüp;Retail;RM;;;; 11.2 ; 3.20 ;4.2;3.4;2.5; 3.00 
+1549;470;Bor;Retail;Mass;;;; 21.0 ; 1.00 ;3.6;4.7;4.2; 4.70 
+1550;3457;Niğde;Retail;RM;;;; 7.1 ; 4.11 ;3.8;2.9;4.2; 4.10 
+1551;4245;Ordu;Retail;RM;;;; 10.2 ; 3.45 ;2.8;4.2;3; 3.90 
+1552;4171;Fatsa;Retail;Mass;;;; 11.8 ; 3.05 ;2.7;2;4.1; 2.70 
+1553;3705;Gölköy;Retail;Mass;;;; 19.4 ; 1.15 ;2.3;3.2;2.4; 3.00 
+1554;4888;Ünye;Retail;Mass;;;; 19.0 ; 1.25 ;1.5;5;3.3; 3.70 
+1555;4306;Düziçi;Retail;Mass;;;; 15.0 ; 2.25 ;3.7;4.9;4.5; 4.60 
+1556;4902;Kadirli;Retail;Mass;;;; 27.0 ; 1.00 ;1.2;2.7;3; 3.60 
+1557;2603;Osmaniye;Retail;RM;;;; 9.5 ; 3.63 ;1.5;2.5;3.1; 2.90 
+1558;4001;Ardeşen;Retail;Mass;;;; 18.6 ; 1.35 ;2.8;5;3.4; 3.50 
+1559;4356;Çayeli;Retail;RM;;;; 14.3 ; 2.43 ;4.3;4.2;4.2; 4.00 
+1560;1667;Rize Fındıklı;Retail;Mass;;;; 21.4 ; 1.00 ;2.9;4.7;2.9; 3.20 
+1561;4262;Rize;Retail;Private RM;;;; 13.4 ; 2.65 ;3.9;4.2;3.2; 4.00 
+1562;3561;Adapazarı;Retail;RM;;;; 18.7 ; 1.33 ;3.5;3.3;3.2; 3.90 
+1563;2770;Adapazarı Atatürk Bulvarı;Retail;Mass;;;; 21.8 ; 1.00 ;3.3;4.3;3.4; 4.30 
+1564;2033;Bosna Caddesi;Retail;Mass;;;; 23.8 ; 1.00 ;3.7;4.8;3.4; 3.40 
+1565;807;Akyazı;Retail;Mass;;;; 19.4 ; 1.15 ;2.2;4.8;4.2; 4.60 
+1566;4198;Erenler;Retail;Mass;;;; 13.0 ; 2.75 ;2.8;4.6;2.4; 3.40 
+1567;4631;Ferizli;Retail;Mass;;;; 18.2 ; 1.45 ;2.8;3;3.6; 3.80 
+1568;2508;Geyve;Retail;Mass;;;; 12.2 ; 2.95 ;3;2.9;3.9; 3.50 
+1569;2261;Hendek;Retail;Mass;;;; 7.4 ; 4.08 ;3;2.5;1.5; 3.10 
+1570;2446;Karasu;Retail;Mass;;;; 26.2 ; 1.00 ;3.8;2.9;3.2; 3.60 
+1571;3713;Sakarya Kaynarca;Retail;RM;;;; 7.1 ; 4.11 ;3.8;3.8;3.3; 3.90 
+1572;3462;Kocaali;Retail;Mass;;;; 18.6 ; 1.35 ;2;1.9;3.7; 3.30 
+1573;1921;Atakum;Retail;RM;;;; 15.3 ; 2.18 ;3.7;2;4; 3.60 
+1574;3549;Karadeniz Ticari Merkez;Commercial;Commercial;;;; 3.2 ; 4.60 ;4.7;1.9;3.7; 3.00 
+1575;2741;Bafra;Retail;RM;;;; 13.9 ; 2.53 ;2.5;2;1.9; 3.10 
+1576;3610;Canik;Retail;Mass;;;; 19.8 ; 1.05 ;3.6;2.1;2.1; 3.30 
+1577;4464;Çarşamba;SME;SME RM;;;; 3.6 ; 4.55 ;4.1;3.5;5; 4.60 
+1578;3562;Samsun Havza;Retail;Mass;;;; 7.4 ; 4.08 ;2.9;3.6;2.6; 3.10 
+1579;3699;Samsun;Retail;RM;;;; 9.9 ; 3.53 ;4.1;3.7;1.8; 3.50 
+1580;3470;Samsun Ellialtılar;Retail;Private RM;;;; 15.4 ; 2.15 ;3.9;4.3;3.3; 4.10 
+1581;4204;Tekkeköy;Retail;RM;;;; 7.8 ; 4.03 ;4.4;4.2;3.3; 4.10 
+1582;4977;Terme;Retail;Mass;;;; 21.4 ; 1.00 ;3.5;4.3;4.4; 3.30 
+1583;4857;Vezirköprü;Retail;Mass;;;; 25.4 ; 1.00 ;2.8;4.4;4.5; 4.50 
+1584;3491;Siirt;Retail;Mass;;;; 22.6 ; 1.00 ;1.6;3.8;4.2; 3.10 
+1585;2183;Boyabat;Retail;Mass;;;; 9.0 ; 3.75 ;2.8;2.7;3.6; 2.40 
+1586;1150;Sinop;Retail;RM;;;; 8.8 ; 3.80 ;1.6;2.4;4.5; 2.70 
+1587;563;Kangal;Retail;Mass;;;; 17.4 ; 1.65 ;2.7;3.2;3.3; 3.20 
+1588;2857;Sivas;Retail;RM;;;; 20.4 ; 1.00 ;3.6;4;1.6; 3.50 
+1589;1666;Sivas Çarşı;SME;SME RM;;;; 9.3 ; 3.68 ;3;2.1;3.7; 3.80 
+1590;1171;Şarkışla;Retail;Mass;;;; 22.6 ; 1.00 ;2.7;4.9;2.3; 3.30 
+1591;2327;Yıldızeli;Retail;Mass;;;; 22.6 ; 1.00 ;2.8;3.9;4.2; 3.70 
+1592;4568;Akçakale;Retail;Mass;;;; 27.0 ; 1.00 ;4.2;5;4.2; 4.10 
+1593;4420;Birecik;Retail;Mass;;;; 15.4 ; 2.15 ;2.7;2.5;3; 3.40 
+1594;3466;Bozova;Retail;Mass;;;; 13.8 ; 2.55 ;2.7;1.4;3.2; 3.40 
+1595;199;Gap;Retail;Mass;;;; 13.8 ; 2.55 ;1.5;4.2;4.1; 4.30 
+1596;2555;Emniyet Caddesi;Retail;Mass;;;; 17.4 ; 1.65 ;1.6;4.2;3.8; 4.20 
+1597;4255;Şanlıurfa;Retail;Mass;;;; 12.6 ; 2.85 ;1.4;2.6;4; 4.00 
+1598;1559;Harran;Retail;Mass;;;; 8.2 ; 3.95 ;3.2;4.7;3.8; 3.60 
+1599;1918;Hilvan;Retail;Mass;;;; 21.0 ; 1.00 ;4;4.2;3.2; 3.80 
+1600;2979;Siverek;Retail;Mass;;;; 23.8 ; 1.00 ;3.2;4.8;3; 4.20 
+1601;3915;Suruç;Retail;Mass;;;; 13.4 ; 2.65 ;3.2;4.2;3.4; 3.60 
+1602;1210;Viranşehir;Retail;Mass;;;; 25.4 ; 1.00 ;1.5;4.9;4.2; 4.60 
+1603;4632;Cizre;Retail;RM;;;; 13.9 ; 2.53 ;2.8;4.5;4.5; 3.70 
+1604;529;Silopi;Retail;Mass;;;; 21.4 ; 1.00 ;3.3;4.2;4.1; 4.10 
+1605;2689;Çerkezköy;SME;SME RM;;;; 13.5 ; 2.63 ;4.8;4.4;4.9; 3.90 
+1606;4218;Çorlu;Retail;Mass;;;; 7.4 ; 4.08 ;3.2;2.4;2.4; 3.30 
+1607;2551;Çorlu Çarşı;SME;SME RM;;;; 9.6 ; 3.60 ;3.5;3.3;2.1; 3.40 
+1608;2593;Çorlu Orion;SME;SME RM;;;; 14.7 ; 2.33 ;4.4;2.3;4.7; 3.00 
+1609;4817;Hayrabolu;Retail;Mass;;;; 26.6 ; 1.00 ;2.5;4.9;3.4; 4.50 
+1610;1810;Malkara;Retail;Mass;;;; 17.4 ; 1.65 ;2.4;3.7;3.5; 3.40 
+1611;460;Muratlı;Retail;Mass;;;; 7.4 ; 4.08 ;3.3;4.8;3.3; 4.20 
+1612;2615;Saray;Retail;Mass;;;; 16.6 ; 1.85 ;4.2;3.8;4.4; 4.20 
+1613;4924;Tekirdağ;Retail;RM;;;; 18.7 ; 1.33 ;3.9;4.2;3.4; 4.20 
+1614;2035;Tekirdağ Süleymanpaşa;Retail;RM;;;; 18.7 ; 1.33 ;4.5;3.7;3.3; 4.00 
+1615;2397;Şarköy;Retail;RM;;;; 16.7 ; 1.83 ;2.2;1.5;3.7; 3.20 
+1616;3787;Artova;Retail;Mass;;;; 17.4 ; 1.65 ;2.8;4.4;3.6; 3.90 
+1617;1984;Erbaa;Retail;Mass;;;; 23.4 ; 1.00 ;1.6;2.4;4; 3.80 
+1618;2363;Tokat;Retail;RM;;;; 15.0 ; 2.25 ;4.3;3.9;3.2; 3.70 
+1619;2836;Niksar;Retail;Mass;;;; 22.6 ; 1.00 ;2.8;5;3; 3.60 
+1620;4754;Turhal;Retail;Mass;;;; 16.6 ; 1.85 ;1.9;3.7;3.8; 3.00 
+1621;3566;Zile;Retail;Mass;;;; 21.4 ; 1.00 ;3;5;3.3; 3.40 
+1622;3425;Akçaabat;Retail;RM;;;; 15.0 ; 2.25 ;3.1;2.3;3.9; 4.10 
+1623;3617;Of;Retail;Mass;;;; 24.6 ; 1.00 ;2.1;4.6;3.7; 4.40 
+1624;1820;Değirmendere;Retail;RM;;;; 16.3 ; 1.93 ;3.1;3.4;2.7; 3.90 
+1625;92;Trabzon;Retail;Private RM;;;; 6.4 ; 4.20 ;2.1;3.9;4.1; 4.20 
+1626;1834;Vakfıkebir;Retail;RM;;;; 15.6 ; 2.10 ;4.9;2.8;4.2; 3.20 
+1627;1629;Tunceli;Retail;Mass;;;; 13.8 ; 2.55 ;3.7;4.7;2.7; 3.80 
+1628;3885;Eşme;Retail;Mass;;;; 27.0 ; 1.00 ;3.2;4.8;3.9; 4.40 
+1629;3302;Uşak;Retail;RM;;;; 19.0 ; 1.25 ;4.3;3.3;3.8; 4.00 
+1630;2673;Uşak Bulvar;Retail;Mass;;;; 22.6 ; 1.00 ;3.5;4.1;3.8; 4.20 
+1631;3099;Başkale;Retail;Mass;;;; 20.6 ; 1.00 ;2.4;4.6;2.8; 4.10 
+1632;3471;Çaldıran;Retail;Mass;;;; 22.2 ; 1.00 ;2.4;3.8;4.2; 3.70 
+1633;142;Erciş;Retail;Mass;;;; 17.8 ; 1.55 ;2.7;4.7;4.4; 3.10 
+1634;4839;Van Gürpınar;Retail;Mass;;;; 13.0 ; 2.75 ;3.2;4.1;2.8; 3.70 
+1635;4863;Van;Retail;RM;;;; 8.2 ; 3.95 ;4.9;3;3.5; 3.80 
+1636;75;Van Kazım Karabekir Caddesi;Retail;Mass;;;; 17.0 ; 1.75 ;2.4;2.5;4.3; 3.80 
+1637;3834;Yalova;Retail;Private RM;;;; 8.0 ; 4.00 ;1.7;2.1;3.4; 3.80 
+1638;4185;Akdağmadeni;Retail;Mass;;;; 7.4 ; 4.08 ;2.6;4.1;3.4; 4.20 
+1639;1860;Boğazlıyan;Retail;Mass;;;; 22.6 ; 1.00 ;3.2;4.8;3.7; 4.20 
+1640;940;Yozgat;Retail;RM;;;; 8.2 ; 3.95 ;4.6;3;2.7; 3.80 
+1641;1185;Sarıkaya;Retail;Mass;;;; 15.4 ; 2.15 ;2.6;2.5;2.8; 2.90 
+1642;3331;Sorgun;Retail;Mass;;;; 22.2 ; 1.00 ;1.7;4.6;2.2; 4.00 
+1643;3529;Yerköy;Retail;Mass;;;; 21.8 ; 1.00 ;3.6;3;3.1; 3.70 
+1644;4797;Çaycuma;Retail;Mass;;;; 26.2 ; 1.00 ;2.4;3;3.9; 3.50 
+1645;3734;Karadeniz Ereğli;Retail;RM;;;; 16.7 ; 1.83 ;3.9;3.3;4.3; 4.10 
+1646;4983;Zonguldak;Retail;RM;;;; 10.9 ; 3.28 ;4.7;1.7;3.7; 3.50 
